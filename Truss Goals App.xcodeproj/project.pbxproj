@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		299106FC1C3B2023006F2841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299106FB1C3B2023006F2841 /* AppDelegate.swift */; };
+		299106FE1C3B2023006F2841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299106FD1C3B2023006F2841 /* ViewController.swift */; };
+		299107011C3B2023006F2841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299106FF1C3B2023006F2841 /* Main.storyboard */; };
+		299107031C3B2023006F2841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299107021C3B2023006F2841 /* Assets.xcassets */; };
+		299107061C3B2023006F2841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299107041C3B2023006F2841 /* LaunchScreen.storyboard */; };
+		299107111C3B2023006F2841 /* Truss_Goals_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299107101C3B2023006F2841 /* Truss_Goals_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2991070D1C3B2023006F2841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299106F01C3B2023006F2841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299106F71C3B2023006F2841;
+			remoteInfo = "Truss Goals App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		299106F81C3B2023006F2841 /* Truss Goals App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truss Goals App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299106FB1C3B2023006F2841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		299106FD1C3B2023006F2841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		299107001C3B2023006F2841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		299107021C3B2023006F2841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299107051C3B2023006F2841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		299107071C3B2023006F2841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2991070C1C3B2023006F2841 /* Truss Goals AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truss Goals AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299107101C3B2023006F2841 /* Truss_Goals_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truss_Goals_AppTests.swift; sourceTree = "<group>"; };
+		299107121C3B2023006F2841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299106F51C3B2023006F2841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299107091C3B2023006F2841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		299106EF1C3B2022006F2841 = {
+			isa = PBXGroup;
+			children = (
+				299106FA1C3B2023006F2841 /* Truss Goals App */,
+				2991070F1C3B2023006F2841 /* Truss Goals AppTests */,
+				299106F91C3B2023006F2841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		299106F91C3B2023006F2841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299106F81C3B2023006F2841 /* Truss Goals App.app */,
+				2991070C1C3B2023006F2841 /* Truss Goals AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		299106FA1C3B2023006F2841 /* Truss Goals App */ = {
+			isa = PBXGroup;
+			children = (
+				299106FB1C3B2023006F2841 /* AppDelegate.swift */,
+				299106FD1C3B2023006F2841 /* ViewController.swift */,
+				299106FF1C3B2023006F2841 /* Main.storyboard */,
+				299107021C3B2023006F2841 /* Assets.xcassets */,
+				299107041C3B2023006F2841 /* LaunchScreen.storyboard */,
+				299107071C3B2023006F2841 /* Info.plist */,
+			);
+			path = "Truss Goals App";
+			sourceTree = "<group>";
+		};
+		2991070F1C3B2023006F2841 /* Truss Goals AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				299107101C3B2023006F2841 /* Truss_Goals_AppTests.swift */,
+				299107121C3B2023006F2841 /* Info.plist */,
+			);
+			path = "Truss Goals AppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		299106F71C3B2023006F2841 /* Truss Goals App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299107151C3B2023006F2841 /* Build configuration list for PBXNativeTarget "Truss Goals App" */;
+			buildPhases = (
+				299106F41C3B2023006F2841 /* Sources */,
+				299106F51C3B2023006F2841 /* Frameworks */,
+				299106F61C3B2023006F2841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Truss Goals App";
+			productName = "Truss Goals App";
+			productReference = 299106F81C3B2023006F2841 /* Truss Goals App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2991070B1C3B2023006F2841 /* Truss Goals AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299107181C3B2023006F2841 /* Build configuration list for PBXNativeTarget "Truss Goals AppTests" */;
+			buildPhases = (
+				299107081C3B2023006F2841 /* Sources */,
+				299107091C3B2023006F2841 /* Frameworks */,
+				2991070A1C3B2023006F2841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2991070E1C3B2023006F2841 /* PBXTargetDependency */,
+			);
+			name = "Truss Goals AppTests";
+			productName = "Truss Goals AppTests";
+			productReference = 2991070C1C3B2023006F2841 /* Truss Goals AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		299106F01C3B2023006F2841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Breanne Boland";
+				TargetAttributes = {
+					299106F71C3B2023006F2841 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2991070B1C3B2023006F2841 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 299106F71C3B2023006F2841;
+					};
+				};
+			};
+			buildConfigurationList = 299106F31C3B2023006F2841 /* Build configuration list for PBXProject "Truss Goals App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 299106EF1C3B2022006F2841;
+			productRefGroup = 299106F91C3B2023006F2841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299106F71C3B2023006F2841 /* Truss Goals App */,
+				2991070B1C3B2023006F2841 /* Truss Goals AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299106F61C3B2023006F2841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299107061C3B2023006F2841 /* LaunchScreen.storyboard in Resources */,
+				299107031C3B2023006F2841 /* Assets.xcassets in Resources */,
+				299107011C3B2023006F2841 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2991070A1C3B2023006F2841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299106F41C3B2023006F2841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299106FE1C3B2023006F2841 /* ViewController.swift in Sources */,
+				299106FC1C3B2023006F2841 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299107081C3B2023006F2841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299107111C3B2023006F2841 /* Truss_Goals_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2991070E1C3B2023006F2841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299106F71C3B2023006F2841 /* Truss Goals App */;
+			targetProxy = 2991070D1C3B2023006F2841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		299106FF1C3B2023006F2841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299107001C3B2023006F2841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		299107041C3B2023006F2841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299107051C3B2023006F2841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		299107131C3B2023006F2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		299107141C3B2023006F2841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		299107161C3B2023006F2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Truss Goals App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trussel-Sprouts.Truss-Goals-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		299107171C3B2023006F2841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Truss Goals App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trussel-Sprouts.Truss-Goals-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		299107191C3B2023006F2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Truss Goals AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trussel-Sprouts.Truss-Goals-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truss Goals App.app/Truss Goals App";
+			};
+			name = Debug;
+		};
+		2991071A1C3B2023006F2841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Truss Goals AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trussel-Sprouts.Truss-Goals-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truss Goals App.app/Truss Goals App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299106F31C3B2023006F2841 /* Build configuration list for PBXProject "Truss Goals App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299107131C3B2023006F2841 /* Debug */,
+				299107141C3B2023006F2841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299107151C3B2023006F2841 /* Build configuration list for PBXNativeTarget "Truss Goals App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299107161C3B2023006F2841 /* Debug */,
+				299107171C3B2023006F2841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		299107181C3B2023006F2841 /* Build configuration list for PBXNativeTarget "Truss Goals AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299107191C3B2023006F2841 /* Debug */,
+				2991071A1C3B2023006F2841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 299106F01C3B2023006F2841 /* Project object */;
+}
